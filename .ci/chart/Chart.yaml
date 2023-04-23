@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: 0.0.1
+name: traderfour-web
+version: 0.0.1
+description: A helm chart for traderfour web project
+home: https://gitlab.com/traderfour/web
+maintainers:
+- name: Alireza Josheghani
+  url: https://github.com/mrjosh
+sources:
+- https://gitlab.com/traderfour/web
+type: application

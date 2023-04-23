@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.4.0",
+    "@nuxt/image-edge": "^1.0.0-28020728.5df24eb",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/i18n": "8.0.0-beta.10",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "nuxt": "^3.4.1",
+    "nuxt-icon": "^0.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.6.5"
+  }
+}

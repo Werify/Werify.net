@@ -1,0 +1,22 @@
+name: "sample"
+replicaCount: 1
+
+ingressController: nginx
+
+service:
+  type: ClusterIP
+
+domainName: "trader4.net"
+
+tls:
+  enabled: false
+  clusterIssuer: le-clusterissuer
+  secretName: trader4-net-wildcard-tls
+
+image:
+  repository: "trader4.{{ .Values.name }}-docs"
+  pullPolicy: Always
+  tag: latest
+
+resources: {}
+tolerations: {}
