@@ -11,13 +11,13 @@
               class="block md:m-0 mx-auto dark:hidden"
               width="150"
               height="150"
-              src="/images/logo.svg"
+              src="../public/img/logo.svg"
             />
             <img
-              class="  md:m-0 mx-auto hidden dark:block"
+              class="md:m-0 mx-auto hidden dark:block"
               width="150"
               height="150"
-              src="/images/logo-dark.svg"
+              src="../public/img/logo-dark.svg"
             />
           </NuxtLink>
           <p class="my-4 font-light text-gray-500 dark:text-gray-400">
