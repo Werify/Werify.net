@@ -14,7 +14,7 @@
               src="/images/logo.svg"
             />
             <img
-              class="  md:m-0 mx-auto hidden dark:block"
+              class="md:m-0 mx-auto hidden dark:block"
               width="150"
               height="150"
               src="/images/logo-dark.svg"
