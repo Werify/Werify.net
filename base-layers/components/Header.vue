@@ -20,12 +20,12 @@
           <NuxtLink :to="localepath('/')" class="flex mr-4 rtl: ml-2">
             <img
               class="md:h-20 md:w-20 h-16 w-16 dark:hidden"
-              src="/images/logo.svg"
+              src="../public/img/logo.svg"
               alt="werify logo"
             />
             <img
               class="md:h-20 md:w-20 h-16 w-16 hidden dark:block"
-              src="/images/logo-dark.svg"
+              src="../public/img/logo-dark.svg"
               alt="werify logo"
             />
             <!-- <span
@@ -41,7 +41,7 @@
                 class="flex absolute inset-y-0 left-0 rtl:right-2 items-center pl-3 pointer-events-none"
               >
                 <svg
-                  class="w-5 h-5 text-gray-500 dark:text-gray-400  rtl:rotate-90"
+                  class="w-5 h-5 text-gray-500 dark:text-gray-400 rtl:rotate-90"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
