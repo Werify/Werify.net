@@ -2,3 +2,4 @@
 [submodule "main-base-layers"]
 	path = main-base-layers
 	url = https://github.com/Briofy/base-layers.git
+	branch = main
