@@ -1,4 +1,4 @@
 
-[submodule "main-base-layers"]
-	path = main-base-layers
+[submodule "base-layers"]
+	path = base-layers
 	url = https://github.com/Briofy/base-layers.git
