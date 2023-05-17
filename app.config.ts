@@ -46,6 +46,7 @@ export default defineAppConfig({
       logo: "../public/images/logo.svg",
       darkLogo: "../public/images/logo-dark.svg",
       menu: [
+        { title: "Product", link: "/product" },
         { title: "Pricing", link: "/pricing" },
         { title: "Help", link: "/help" },
       ],
@@ -61,17 +62,17 @@ export default defineAppConfig({
         {
           lang: "fa",
           flagSrc: "/img/icon/ir.svg",
-          text: "Farsi",
+          text: "فارسی",
         },
         {
           lang: "ar",
           flagSrc: "/img/icon/ar.svg",
-          text: "Arabic",
+          text: "العربية",
         },
         {
           lang: "tr",
           flagSrc: "/img/icon/tr.svg",
-          text: "Turkish",
+          text: "Türkçe",
         },
       ],
       hideThemeSelector: false,
@@ -89,18 +90,18 @@ export default defineAppConfig({
       darkLogo: "../public/images/logo-dark.svg",
       hideEmailBox: false,
       emailAPI: "https://api.werify.net/api/Email/ContactUs",
-      copyRight: `<span>© 2017-2023
+      copyRight: `<span>© 2022-2023
                             <a href="https://werify.net" class="hover:underline">Werify</a>.
                             All Rights Reserved.</span
                           >`,
       partOf: `<p>
         Proudly Part Of
         <a
-          href="https://Werify.net"
+          href="https://briofy.net"
           target="_blank"
           rel="external"
           class="hover:underline font-semibold"
-          >Werify</a
+          >Briofy</a
         >
         Family
       </p>`,
@@ -134,7 +135,7 @@ export default defineAppConfig({
             { title: "About", link: "/about" },
             { title: "Contact", link: "/contact" },
             { title: "Pricing", link: "/pricing" },
-            { title: "News", link: "/blog/news" },
+            { title: "Newsroom", link: "/blog/news" },
             { title: "Blog", link: "/blog" },
             { title: "Careers", link: "/careers" },
             { title: "Privacy Policy", link: "/privacy" },
@@ -145,15 +146,16 @@ export default defineAppConfig({
         {
           title: "Products",
           links: [
-            { title: "Marketplace", link: "/marketplace" },
-            { title: "Bridge", link: "/bridge" },
-            { title: "Bazaar", link: "/bazaar" },
-            { title: "Financial Engineering", link: "/financial-engineering" },
-            { title: "Algo Trading", link: "/algo-trading" },
-            { title: "Cloud Trading", link: "/cloud-trading" },
-            { title: "Trading Framework", link: "/cloud-trading" },
-            { title: "License System", link: "/license-system" },
-            { title: "Open API", link: "/open-api" },
+            { title: "Account", link: "/product/account" },
+            { title: "Drive", link: "/product/drive" },
+            { title: "Pasles", link: "/product/pasles" },
+            { title: "Comment", link: "/product/comment" },
+            { title: "Review", link: "/product/review" },
+            { title: "Helpdesk", link: "/product/help-desk" },
+            { title: "Feedback", link: "/product/feedback" },
+            { title: "Verification", link: "/product/verification" },
+            { title: "eKYC", link: "/product/ekyc" },
+            { title: "eSign", link: "/product/esign" },
           ],
         },
         {
@@ -179,8 +181,6 @@ export default defineAppConfig({
           links: [
             { title: "Download Android", link: "/mobile/android" },
             { title: "Download iOS", link: "/mobile/ios" },
-            { title: "Think and Grow Rich", link: "/think-and-grow-rich" },
-            { title: "Rich Dad Poor Dad", link: "/rich-dad-poor-dad" },
             { title: "Open Source", link: "/open-source" },
             { title: "#werify", link: "/hashtag-werify" },
             { title: "Bug Bounty", link: "/bug-bounty" },
@@ -189,25 +189,17 @@ export default defineAppConfig({
           ],
         },
         {
-          title: "Our Family",
+          title: "From Family",
           links: [
             { title: "Briofy", link: "https://briofy.net", target: "_blank" },
-            { title: "Werify", link: "https://werify.net", target: "_blank" },
+            { title: "Trader4", link: "https://trader4.net", target: "_blank" },
             { title: "Bulutly", link: "https://bulutly.net", target: "_blank" },
             { title: "AzPays", link: "https://azpays.net", target: "_blank" },
-            {
-              title: "Streamfy",
-              link: "https://streamfy.net",
-              target: "_blank",
-            },
+            { title: "Streamfy", link: "https://streamfy.net", target: "_blank"},
             { title: "Learnfy", link: "https://learnfy.net", target: "_blank" },
             { title: "Mehrify", link: "https://mehrify.net", target: "_blank" },
             { title: "Carefy", link: "https://carefy.net", target: "_blank" },
-            {
-              title: "More from werify",
-              link: "https://werify.net/products",
-              target: "_blank",
-            },
+            { title: "More from Briofy", link: "https://briofy.net/products", target: "_blank"},
           ],
         },
       ],
